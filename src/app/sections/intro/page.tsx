@@ -8,7 +8,7 @@ export default function Page() {
     <SlideInZoom>
       <div
         id="intro"
-        className="flex flex-col md:flex-row md:justify-between justify-center h-dvh p-5 md:p-40 gap-10 md:gap-0
+        className="flex flex-col md:flex-row md:justify-between justify-center h-dvh p-5 md:p-40  
         transition-opacity duration-1000 ease-in-out"
       >
         <div className="flex flex-col justify-center">
