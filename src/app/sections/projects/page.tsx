@@ -44,23 +44,23 @@ export default function Projects() {
 
         <FlipSkewUp>
           <div className="group p-6 rounded-xl bg-black text-white dark:bg-white dark:text-black transition duration-500 hover:scale-105 hover:shadow-xl">
-            <h3 className="text-xl font-medium mb-4 text-center transition-colors duration-300">
-              <a
-                href="https://github.com/TheHunterRV/Employee-Management-System"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-blue-500"
-              >
+            <a
+              href="https://github.com/TheHunterRV/Employee-Management-System"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500"
+            >
+              <h3 className="text-xl font-medium mb-4 text-center transition-colors duration-300">
                 View on GitHub
-              </a>
-            </h3>
-            <Image
-              src="/images/My-projects.png"
-              alt="Employee Management System preview"
-              width={400}
-              height={400}
-              className="rounded-lg transition-transform duration-500 group-hover:scale-105"
-            />
+              </h3>
+              <Image
+                src="/images/My-projects.png"
+                alt="Employee Management System preview"
+                width={400}
+                height={400}
+                className="rounded-lg transition-transform duration-500 group-hover:scale-105"
+              />
+            </a>
           </div>
         </FlipSkewUp>
       </div>
